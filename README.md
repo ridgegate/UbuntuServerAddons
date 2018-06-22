@@ -1,5 +1,9 @@
-# Server Addons: xRDP, xfce4 and FSearch
-This allows for quick installation of xRDP, xfce4 and Fsearch for remote desktop connections from Windows machine with FSearch ability to mimic file search like Everything from Voidtools on Windows.
+# Server Addons: xRDP, xfce4, FSearch and Syncthing
+This allows for quick installation of the following packages
+* xRDP - Remote desktop connection from Windows
+* xfce4 - lightweight GUI for xRDP connections
+* Fsearch - File search like Everything from Voidtools on Windows
+* Syncthing - File synchronization similar DropBox without cloud services but requires computers to be always on
 
 ## Instructions
 Run the following commands on your Ubuntu terminal to download the script and start the installation. </br>
