@@ -13,9 +13,9 @@
 clear 
 # -------Install xRDP and xfce4-------
 echo "installing the required packages"
-sudo apt-get update
-sudo apt-get install xrdp
-sudo apt-get install xfce4
+sudo apt-get update -y
+sudo apt-get install -y xrdp
+sudo apt-get install -y xfce4
 
 # Modify two files to make sure xRDP uses Xfce4
 # This auto backup and overwrite the startwm.sh file in /etc/xrdp/ directory.
@@ -27,9 +27,9 @@ sudo service xrdp restart
 # -------End of Install xRDP and xfce4-------
 
 # -------Install fsearch-------
-sudo add-apt-repository ppa:christian-boxdoerfer/fsearch-daily
-sudo apt-get update
-sudo apt install fsearch-trunk
+sudo add-apt-repository -y ppa:christian-boxdoerfer/fsearch-daily
+sudo apt-get update -y
+sudo apt install -y fsearch-trunk
 # -------End of Install fsearch-------
 
 # -------Install Syncthing-------
@@ -38,6 +38,6 @@ curl -s https://syncthing.net/release-key.txt | sudo apt-key add -
 # Add the "stable" channel to your APT sources:
 echo "deb https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sources.list.d/syncthing.list
 # Update and install syncthing:
-sudo apt-get update
-sudo apt-get install syncthing
+sudo apt-get update -y
+sudo apt-get install -y syncthing
 # -------End of Install Syncthing-------
