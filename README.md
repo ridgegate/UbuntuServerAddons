@@ -7,6 +7,6 @@ This allows for quick installation of the following packages
 
 ## Instructions
 Run the following commands on your Ubuntu terminal to download the script and start the installation. </br>
-  * wget https://raw.githubusercontent.com/ridgegate/UbuntuServerAddons-xRDP-xfec4-Fsearch/master/ubuntu_addons.sh </br>
+  * wget https://raw.githubusercontent.com/ridgegate/UbuntuServerAddons/master/ubuntu_addons.sh </br>
   * sudo chmod +x ubuntu_addons.sh </br>
   * sudo ./ubuntu_addons.sh </br>
