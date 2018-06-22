@@ -8,6 +8,7 @@
 # sources:
 # https://www.tweaking4all.com/software/linux-software/use-xrdp-remote-access-ubuntu-14-04/
 # https://github.com/cboxdoerfer/fsearch
+# https://apt.syncthing.net/
 
 clear 
 # -------Install xRDP and xfce4-------
