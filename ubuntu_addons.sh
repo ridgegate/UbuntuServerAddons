@@ -68,6 +68,8 @@ sudo apt install -y fsearch-trunk
 sudo apt-get install -y google-chrome-stable
 # Install General Purporse Mouse
 sudo apt-get install -y gpm
+# Install LibreOffice
+sudo apt-get install -y libreoffice
 
 echo "Edit your /etc/samba/smb.conf file to allow access to the appropriate folders/files"
 echo "Format to follow:"
